@@ -44,6 +44,6 @@ out/
 src/main/resources/.env
 
 ### upload folders ###
-ffmpeg
+lambda
 temp
 videos
