@@ -57,6 +57,13 @@ public class S3FileManager {
         return uploadPath + todayPath + "/" + uuid + "." + extension;
     }
 
+    public String generateS3PathPrefix(String uploadPath) {
+        String todayPath = LocalDate.now()
+                .format(DateTimeFormatter.ofPattern("yyyy/MM/dd"));
+
+        return uploadPath + todayPath + "/";
+    }
+
     private String extractExtension(String fileName) {
         int dotIndex = fileName.lastIndexOf(".");
         if (dotIndex == -1) {

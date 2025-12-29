@@ -17,6 +17,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.UUID;
+
 @Slf4j
 @Service
 @RequiredArgsConstructor
@@ -24,7 +26,7 @@ public class VideoS3UploadService {
 
     private static final Long MAX_FILE_SIZE = 1024 * 1024 * 100L;
     private static final String VIDEO_TEMP_PATH = "videos/original/";
-    private static final String SAVED_TEMP_PATH = "encoder/";
+    private static final String SAVED_TEMP_PATH = "videos/hls/";
 
     private final VideoRepository videoRepository;
     private final MemberRepository memberRepository;
@@ -38,21 +40,24 @@ public class VideoS3UploadService {
 //        validateFile(request);
 
         // 2. S3 Key 생성 (UUID 기반)
-        String s3Key = s3FileManager.generateS3Key(requestDto.originalFilename(), VIDEO_TEMP_PATH);
-        String fileName = s3Key.substring(s3Key.lastIndexOf("/") + 1);
-        String uuid = fileName.substring(0, fileName.lastIndexOf("."));
-        String savedS3Key = SAVED_TEMP_PATH + uuid + "/playlist.m3u8";
+        String originalFileName = requestDto.originalFilename();
+        String s3OriginalFilePathPrefix = s3FileManager.generateS3PathPrefix(VIDEO_TEMP_PATH);
+        String uuid = UUID.randomUUID().toString();
+        String originalFileS3Key = s3OriginalFilePathPrefix + uuid + "." + extractExtension(originalFileName);
+
+        String s3EncodedFilePathPrefix = s3FileManager.generateS3PathPrefix(SAVED_TEMP_PATH);
+        String encodedFileS3Key = s3EncodedFilePathPrefix + uuid + "/index.m3u8";
 
         // 3. Video Entity 생성
-        Integer videoIdx = createVideoEntity(requestDto, s3Key, channel, savedS3Key);
+        Integer videoIdx = createVideoEntity(requestDto, originalFileS3Key, channel, encodedFileS3Key);
 
         // 4. Presigned URL 생성
-        S3PresignedUrlInformationDto presignedUrlInfo = s3FileManager.createPresignedUrl(s3Key, requestDto.contentType());
+        S3PresignedUrlInformationDto presignedUrlInfo = s3FileManager.createPresignedUrl(originalFileS3Key, requestDto.contentType());
 
         return VideoPresignedUrlResponseDto.builder()
                 .videoIdx(videoIdx)
                 .uploadUrl(presignedUrlInfo.uploadUrl())
-                .s3Key(s3Key)
+                .s3Key(originalFileS3Key)
                 .expiresIn(presignedUrlInfo.expiresIn())
                 .build();
     }
