@@ -57,7 +57,10 @@ public class VideoMetadataController {
                                                             @RequestBody VideoMetadataRequestDto requestDto) throws IOException, InterruptedException {
 
         Integer i = videoService.mappingMetadata(requestDto);
-
+        log.info("title={}", requestDto.getTitle());
+        log.info("description={}", requestDto.getDescription());
+        log.info("isPublic={}", requestDto.isPublic());
+        log.info("videoTag={}", requestDto.getVideoTag());
 //        videoS3EncodingService.encode(videoIdx);
 
         return ResponseEntity.ok(BaseResponse.of(i, HttpStatus.OK));
