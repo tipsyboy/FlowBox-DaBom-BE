@@ -39,4 +39,4 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_KEY }}
           script: |
-            sudo sh /home/ubuntu/back/deploy.sh
+            sudo bash /home/ubuntu/back/deploy.sh
