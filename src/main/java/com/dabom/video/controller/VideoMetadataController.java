@@ -57,6 +57,7 @@ public class VideoMetadataController {
                                                             @RequestBody VideoMetadataRequestDto requestDto) throws IOException, InterruptedException {
 
         Integer i = videoService.mappingMetadata(requestDto);
+
 //        videoS3EncodingService.encode(videoIdx);
 
         return ResponseEntity.ok(BaseResponse.of(i, HttpStatus.OK));
