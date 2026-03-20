@@ -1,135 +1,151 @@
-<h1 align="center">Dabom(FlowBox)  </h1>
 <div align="center"> 
  <img src="https://github.com/user-attachments/assets/99a3a5a1-a808-4a5b-9a72-877bafb953b4" width="150"/>
 </div>
 
-프로젝트명 '다봄' 은 **'다'** 같이 **'본다'** 는 동시 시청의 핵심 기능과 새로운 디지털 공동체 문화가
-**'봄'** 처럼 새롭게 시작된다는 의미를 동시에 담고 있습니다.
+<p align="center">
+  영상을 스트리밍하고 하나의 영상을 함께 시청할 수 있는 플랫폼
+</p>
 
+---
+# 📌 프로젝트 소개
 
+> **"혼자 보는 영상에서 함께하는 경험으로"**
 
+프로젝트 '다봄'은 '다' 같이 '본다'는 뜻으로 단순한 영상 시청을 넘어 실시간 공유와 소통이 가능한 스트리밍 서비스입니다.
+영상 콘텐츠와 실시간 채팅, 동시 시청 기능을 결합하여 새로운 형태의 디지털 공동체 경험을 제공합니다.
 
+- **기간**: 2025.06 ~ 2025.09
+- **규모**: 5인 팀 프로젝트 / 팀원
 
-## 🫂 팀원 소개
+### 🔗 배포 링크
+
+[서비스 링크](https://www.dabom-together.kro.kr)
+
+[프론트엔드 레포지토리](https://github.com/tipsyboy/FlowBox-DaBom-FE)
+
+### 🫂 팀원
+
 <table align="center">
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/raccoon-coding"><img src="https://github.com/user-attachments/assets/cd54a924-3b11-4ba6-b682-711026407caa" width="100px;" alt=""/><br /><sub><b> 팀원: 최민성</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/tipsyboy"><img src="https://github.com/user-attachments/assets/307b28e9-f277-4bbd-9ece-77ca04cce34f" width="100px;" alt=""/><br /><sub><b> 팀원: 양형모</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/flionme"><img src="https://github.com/user-attachments/assets/194a7eaa-752e-461d-94e9-3057659bdafe" width="100px;" alt=""/><br /><sub><b> 팀원 : 김성인</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/Hanryang-Kim"><img src="https://github.com/user-attachments/assets/df5ffff0-a06b-4579-a695-4338bd1d2b91" width="100px;" alt=""/><br /><sub><b> 팀원 : 김륜환</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/kbw07"><img src="https://github.com/user-attachments/assets/a1fdbad2-dd82-48c7-941f-422f6e73d58f" width="100px;" alt=""/><br /><sub><b> 팀원 : 강병욱 </b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/raccoon-coding"><img src="https://github.com/user-attachments/assets/cd54a924-3b11-4ba6-b682-711026407caa" width="100px;" alt=""/><br /><sub><b>팀원: 최민성</b></sub></a></td>
+      <td align="center"><a href="https://github.com/tipsyboy"><img src="https://github.com/user-attachments/assets/307b28e9-f277-4bbd-9ece-77ca04cce34f" width="100px;" alt=""/><br /><sub><b>팀원: 양형모</b></sub></a></td>
+      <td align="center"><a href="https://github.com/flionme"><img src="https://github.com/user-attachments/assets/194a7eaa-752e-461d-94e9-3057659bdafe" width="100px;" alt=""/><br /><sub><b>팀원: 김성인</b></sub></a></td>
+      <td align="center"><a href="https://github.com/Hanryang-Kim"><img src="https://github.com/user-attachments/assets/df5ffff0-a06b-4579-a695-4338bd1d2b91" width="100px;" alt=""/><br /><sub><b>팀원: 김륜환</b></sub></a></td>
+      <td align="center"><a href="https://github.com/kbw07"><img src="https://github.com/user-attachments/assets/a1fdbad2-dd82-48c7-941f-422f6e73d58f" width="100px;" alt=""/><br /><sub><b>팀원: 강병욱</b></sub></a></td>
     </tr>
   </tbody>
 </table>
 
 ---
-# 🎬  Streaming Service
 
-## 🎯 프로젝트 소개
-**"혼자 보는 영상에서 함께하는 경험으로"**
+# 🙋 담당
 
-비대면 소통이 일상화된 시대에, 단순한 영상 시청을 넘어 **실시간 공유와 소통이 가능한 스트리밍 서비스**를 개발하고자 합니다.
-영상 콘텐츠와 실시간 채팅, 동시 시청 기능을 결합하여 새로운 형태의 디지털 공동체 경험을 제공하는 것이 저희의 목표입니다.
+[비디오 도메인 개발기 Wiki](https://github.com/tipsyboy/FlowBox-DaBom-BE/wiki/%EB%B9%84%EB%94%94%EC%98%A4-%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9C%EB%B0%9C%EA%B8%B0)
 
----
-## 💚 Front-end
-<a href="https://www.dabomvideo.kro.kr">프론트 주소</a>
-##  📜소프트웨어 아키텍처
-<a href="https://github.com/beyond-sw-camp/be17-3rd-FlowBox-DaBom/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90">소프트웨어 아키텍쳐</a>
+## 👤 역할
+- **Backend**: 비디오 도메인 / 업로드 / 스트리밍 / 인코딩 파이프라인 설계 및 구현
+- **Frontend**: 비디오 플레이어 및 채널 내 비디오 관련 화면 개발
 
-## 🔧시스템 아키텍처
-<a href="https://github.com/beyond-sw-camp/be17-3rd-FlowBox-DaBom/wiki/%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90">시스템 아키텍쳐</a>
+## 🔥 주요 기여
+### 1️⃣ AWS S3 도입 및 Presigned URL 기반 업로드 구조 전환
 
-## 📝 기능 명세서
-<a href="https://api.dabomvideo.kro.kr/swagger-ui/index.html"> 기능 명세서 - Swagger-ui </a>
+#### 문제 인식
+- 로컬 저장소는 미디어 서비스 특성상 용량 한계가 빠르게 발생하고 업로드 용량 변경 시 서버 설정에 의존하는 구조적 제약 존재 파악
+- 서버가 파일을 직접 수신하는 구조에서 대용량 업로드 시 CPU 점유율이 약 15%까지 증가하는 병목 확인
 
-## 💡 성능 개선
-<a href="https://github.com/beyond-sw-camp/be17-3rd-FlowBox-DaBom/wiki/%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0"> 테스트 및 성능 개선 </a>
+#### 해결
+- 저장소의 확장성과 유연성을 확보하기 위해 AWS S3로 저장소 이관
+- 서버를 경유하지 않고 클라이언트가 직접 업로드하도록 Presigned URL 방식 적용
 
----
+#### 결과
+- 서버 CPU 사용량 15% → 3% 감소
+- 업로드 처리로 인한 서버 부하 제거 및 안정성 확보
+- 제한된 URL 기반 접근 제어로 업로드 보안성 향상
 
-## ✨ 주요 기능
+### 2️⃣ HLS 기반 스트리밍 파이프라인 구축
 
-### 💬 실시간 1:1 채팅 (DM)
-- WebSocket 기반 실시간 개인 메시징
-- 사용자 간 즉시 소통 가능
+#### 문제 인식
+- HTTP 206(Partial Content) 기반 스트리밍은 사용자 네트워크 환경에 따라 끊김이 발생하는 한계 존재
 
-### 🎭 Together 기능 (동시 시청)
-- 방장이 방을 생성하고 영상 재생 제어
-- 방 참가자들과 동기화된 영상 시청 환경
-- 실시간 채팅으로 함께 소통하며 시청
-- WebSocket 기반 실시간 동기화
+#### 해결
+- 적응형 스트리밍을 지원하는 HLS 방식 도입
+- FFmpeg을 활용하여 원본 영상을 `.ts` 세그먼트와 `.m3u8` 인덱스로 변환하는 인코딩 파이프라인 구성
 
-### 📹 비디오 업로드 & 스트리밍
-- 사용자 영상 업로드 지원
-- FFmpeg를 통한 HLS 형식 변환
-- AWS S3 기반 안정적인 스토리지
-- AWS Lambda를 활용한 서버리스 비디오 처리
+#### 결과
+- 다양한 네트워크 환경에서도 안정적인 스트리밍 제공
+- 사용자 환경에 따라 자동으로 품질이 조절되는 재생 구조 확보
 
-## 🛠 기술 스택
+### 3️⃣ 서버리스 인코딩 파이프라인 구축
 
-### Backend
-- **실시간 통신**: WebSocket
-- **비디오 처리**: FFmpeg
-- **클라우드**: AWS (S3, Lambda)
-- **스트리밍**: HLS (HTTP Live Streaming)
+#### 문제 인식
+- FFmpeg 인코딩 수행 시 CPU 급등 및 메모리 사용량이 500MB → 2500MB까지 증가
+- `@Async` 기반 비동기 처리로 응답 속도는 개선되었으나 서버 부하는 동일하게 유지
+- 동시 업로드 상황에서 OOM 발생 가능성 확인 → 인프라 레벨 분리 필요
 
-### Core Features
-- **동시 시청**: 실시간 영상 동기화
-- **채팅 시스템**: 1:1 DM + 그룹 채팅
-- **비디오 스트리밍**
+#### 해결
+- 수직 확장, 수평 확장, 전용 인코딩 서버 분리 등 여러 방안을 검토
+- 인코딩 작업을 서버 외부로 분리하기 위해 AWS Lambda 기반 서버리스 구조 선택
+- S3 업로드 이벤트를 트리거로 Lambda에서 FFmpeg 인코딩 후 결과를 S3에 저장하는 파이프라인 설계
 
-## 🚀 서비스 목표
-새로운 형태의 디지털 공동체 경험을 통해 사용자들이 물리적 거리를 넘어 함께 영상을 즐기고 소통할 수 있는 플랫폼을 제공합니다.
+#### 결과
+- 인코딩 작업을 메인 서버와 완전히 분리하여 자원 격리 달성
+- 대용량 영상 동시 업로드 상황에서도 서버 안정성 유지
+- 실행 시간 기반 과금 구조를 활용해 비용 효율적인 처리 가능
 
+#### 파이프라인
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Client as 클라이언트(브라우저)
+    participant Server as 메인 서버(Spring Boot)
+    participant S3 as AWS S3
+    participant Lambda as AWS Lambda (FFmpeg)
+    participant DB as MariaDB
 
----
+    Note over Client, Server: [1. 업로드 주도권 이관]
+    Client->>Server: Presigned URL 요청
+    Server-->>Client: URL 반환 및 DB 'PENDING' 상태 저장
 
+    Note over Client, S3: [2. 서버 부하 없이 직접 업로드]
+    Client->>S3: 영상 데이터 업로드 (Binary)
+    
+    Note over S3, Lambda: [3. 서버리스 인코딩 격리]
+    S3-->>Lambda: S3 ObjectCreated 이벤트 트리거
+    activate Lambda
+    Lambda->>Lambda: HLS 인코딩 수행 (.m3u8, .ts 분할)
+    Lambda->>S3: 인코딩 결과물 저장
+    deactivate Lambda
 
-### ✔️Front-end
+    Note over Lambda, DB: [4. 상태 동기화]
+    Lambda-->>Server: 인코딩 완료 Webhook/알림
+    Server->>DB: 메타데이터 업데이트 및 'SUCCESS' 처리
+```
 
-![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![Socket.js](https://img.shields.io/badge/Socket.js-black?style=for-the-badge&logo=socket.io&logoColor=white)
-![pinia](https://img.shields.io/badge/Pinia-ffd859?style=for-the-badge&logoColor=black)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Axios](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+# 🛠 기술 스택
+## Back-end
 
-
-### ✔️Back-end
-
-![Java](https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=yellow)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=Spring%20Security&logoColor=green)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=green)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=skyblue)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![QueryDSL](https://img.shields.io/badge/QueryDSL-4479A1?style=for-the-badge&logoColor=white)
-![Lombok](https://img.shields.io/badge/Lombok-BC4125?style=for-the-badge&logoColor=white)
-![Google OAuth](https://img.shields.io/badge/Google%20OAuth-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-### ✔️DB
+## DB
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-### ✔️Infra
+## Infra
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
 ![AWS S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=aws-lambda&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
-![AWS API GateWay](https://img.shields.io/badge/AWS%20APIGateWay-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
-![AWS RDS](https://img.shields.io/badge/AWS%20RDS-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
----
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![AWS RDS](https://img.shields.io/badge/AWS%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
 
-## 🔧 기술적 선택과 설계 배경
-### 왜 이런 기술들을 선택했나요?
-- **Spring Boot**:
-- **Kafka**:
-- **MSA (Eureka, OpenFeign)**: 확장성과 유지보수성을 위해
+## Video Processing
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![HLS](https://img.shields.io/badge/HLS-blue?style=for-the-badge)
 
-### 주요 설계 결정
-1. **아키텍처 패턴**: MVC 패턴 선택 이유
-2. **데이터베이스 설계**:
-3. **보안**: JWT + Spring Security 조합 이유
-4. ex
-5.
----
+## Front-end
+![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![Socket.js](https://img.shields.io/badge/Socket.js-black?style=for-the-badge&logo=socket.io&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
